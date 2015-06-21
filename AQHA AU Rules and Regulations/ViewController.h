@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+        
+    IBOutlet UIScrollView *scroller;
+    
+    IBOutlet UIScrollView *secIMainScroll;
 
-@end
+
+
+    
+}
+
+

@@ -14,7 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
     return YES;
 }
 							
@@ -43,6 +43,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)tabBarController:(UITabBarController *)tabBarController willBeginCustomizingViewControllers:(NSArray *)viewControllers {
+    id modalViewCtrl = [[[tabBarController view] subviews] objectAtIndex:1];  
+    if([modalViewCtrl isKindOfClass:NSClassFromString(@"UITabBarCustomizeView")] == YES)
+        ((UINavigationBar*)[[modalViewCtrl subviews] objectAtIndex:0]).tintColor = [UIColor blackColor];
 }
 
 @end
