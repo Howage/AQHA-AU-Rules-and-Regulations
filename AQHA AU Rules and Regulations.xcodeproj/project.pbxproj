@@ -118,13 +118,6 @@
 			remoteGlobalIDString = 5AB88F5715F7514400184D7F;
 			remoteInfo = "AQHA AU Rules and Regulations";
 		};
-		5AC1E78416D0A6A1008D38D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5AC1E77D16D0A6A1008D38D1 /* OHAttributedLabel.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 09E159E8160F573A003025B4;
-			remoteInfo = OHAttributedLabel;
-		};
 		D58DEA501B3694BC00B9725B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D58DEA4C1B3694BC00B9725B /* OHAttributedLabel.xcodeproj */;
@@ -218,7 +211,6 @@
 		5AB88F7D15F7514400184D7F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5AB88F9A1605AD4D00184D7F /* SectionIVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIVC.h; sourceTree = "<group>"; };
 		5AB88F9B1605AD4D00184D7F /* SectionIVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionIVC.m; sourceTree = "<group>"; };
-		5AC1E77D16D0A6A1008D38D1 /* OHAttributedLabel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OHAttributedLabel.xcodeproj; path = ../../OHAttributedLabel/OHAttributedLabel.xcodeproj; sourceTree = "<group>"; };
 		5AE198441641305B002C7DF4 /* d ring snaffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d ring snaffle.png"; sourceTree = "<group>"; };
 		5AE1984716413381002C7DF4 /* low port with roller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "low port with roller.png"; sourceTree = "<group>"; };
 		5AE1984916413450002C7DF4 /* medium port.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medium port.png"; sourceTree = "<group>"; };
@@ -285,7 +277,6 @@
 				D58DEA531B36954E00B9725B /* OHAttributedLabel */,
 				5AB7034F16F1E6DA00EF5FB7 /* MessageUI.framework */,
 				5AB11FD416DCC8D400F2A56D /* MapKit.framework */,
-				5AC1E77D16D0A6A1008D38D1 /* OHAttributedLabel.xcodeproj */,
 				5AB88F6215F7514400184D7F /* AQHA AU Rules and Regulations */,
 				5AB88F5B15F7514400184D7F /* Frameworks */,
 				5AB88F5915F7514400184D7F /* Products */,
@@ -354,14 +345,6 @@
 				5A247F6216DA02DB00F2044A /* Quiz.m */,
 			);
 			name = SectionI;
-			sourceTree = "<group>";
-		};
-		5AC1E77E16D0A6A1008D38D1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5AC1E78516D0A6A1008D38D1 /* libOHAttributedLabel.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5AE375E8162AB21A000887EE /* Pics */ = {
@@ -508,7 +491,8 @@
 		5AB88F4F15F7514400184D7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastTestingUpgradeCheck = 0630;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Australian Quarter Horse Association";
 			};
 			buildConfigurationList = 5AB88F5215F7514400184D7F /* Build configuration list for PBXProject "AQHA AU Rules and Regulations" */;
@@ -526,10 +510,6 @@
 					ProductGroup = D58DEA4D1B3694BC00B9725B /* Products */;
 					ProjectRef = D58DEA4C1B3694BC00B9725B /* OHAttributedLabel.xcodeproj */;
 				},
-				{
-					ProductGroup = 5AC1E77E16D0A6A1008D38D1 /* Products */;
-					ProjectRef = 5AC1E77D16D0A6A1008D38D1 /* OHAttributedLabel.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -540,13 +520,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		5AC1E78516D0A6A1008D38D1 /* libOHAttributedLabel.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libOHAttributedLabel.a;
-			remoteRef = 5AC1E78416D0A6A1008D38D1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		D58DEA511B3694BC00B9725B /* libOHAttributedLabel.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -739,15 +712,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: The Australian Quarter Horse Association";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mark Howard (8P7F827UDM)";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -797,13 +781,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Mark Howard (8P7F827UDM)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mark Howard (8P7F827UDM)";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -811,10 +803,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -824,15 +820,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Mark Howard (8P7F827UDM)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mark Howard (8P7F827UDM)";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";

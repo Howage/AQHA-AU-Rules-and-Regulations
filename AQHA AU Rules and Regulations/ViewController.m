@@ -13,11 +13,10 @@
 
 
 
-@end
 
 @implementation ViewController
 
--(void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+-(void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event; {
 
 if (event.subtype == UIEventSubtypeMotionShake) {
     [self performSegueWithIdentifier:@"Home" sender:self];

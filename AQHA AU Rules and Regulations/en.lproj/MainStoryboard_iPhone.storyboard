@@ -1622,11 +1622,13 @@ In relation to a horse shall be the last figure of the year in which it was foal
                                         <rect key="frame" x="0.0" y="5570" width="325" height="230"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" id="RBw-k4-WHQ" customClass="OHAttributedLabel">
-                                        <rect key="frame" x="-159" y="5348" width="319" height="10561"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="10" id="RBw-k4-WHQ" customClass="OHAttributedLabel">
+                                        <rect key="frame" x="-159" y="5348" width="319" height="9999"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <string key="text">Conformation means the form or outline of an animal – the symmetrical arrangement of its parts. 
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Conformation means the form or outline of an animal – the symmetrical arrangement of its parts. 
 &lt;b&gt;The&lt;/b&gt; conformation of a Quarter Horse is different from that of any other breed. It gives him grace and balance and enables him to do more things better than any other horse. 
 It is important therefore to become familiar with the Points of a Quarter Horse and the Standard of Excellence for the breed. 
 For  this  purpose  we  direct  your  attention  to  the drawing which designates the component parts of the horse. 
@@ -1796,8 +1798,13 @@ Absence of reproductive capabilities as a gelding or spayed mare shall not lesse
   &lt;b&gt;e)&lt;/b&gt;	Abnormalities
   Any defect that has resulted in, or will predispose the animal, to pathological changes that interfere with its intended use. 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <attributes>
+                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -12396,12 +12403,20 @@ Start at S and walk, after a full circle jog to F
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="KRO-r6-Sy2" customClass="OHAttributedLabel">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="KRO-r6-Sy2">
                                         <rect key="frame" x="0.0" y="70" width="977" height="935"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <mutableString key="text">To record, and preserve, the pedigrees of the Australian Quarter Horse while maintaining the integrity of the breed.To provide beneficial services for its Members which enhance and encourage Quarter Horse ownership and participation.To develop diverse educational programs, material and curriculum that will position the AQHA as one of the leading organisations in the Australian Equine Industry.To generate growth of the AQHA membership via the marketing, promotion, advertising and publicity of the Australian Quarter Horse.</mutableString>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">To record, and preserve, the pedigrees of the Australian Quarter Horse while maintaining the integrity of the breed.To provide beneficial services for its Members which enhance and encourage Quarter Horse ownership and participation.To develop diverse educational programs, material and curriculum that will position the AQHA as one of the leading organisations in the Australian Equine Industry.To generate growth of the AQHA membership via the marketing, promotion, advertising and publicity of the Australian Quarter Horse.</string>
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <mutableString key="userLabel">â€¢ To record, and preserve, the pedigrees of the Australian Quarter Horse while maintaining the integrity of the breed. â€¢To provide beneficial services for its Members which enhance and encourage Quarter Horse ownership and participation. â€¢To develop diverse educational programs, material and curriculum that will position the AQHA as one of the leading organisations in the Australian Equine Industry. â€¢ To generate growth of the AQHA membership via the marketing, promotion, advertising and publicity of the Australian Quarter Horse.</mutableString>
                                     </label>
@@ -12423,7 +12438,7 @@ Start at S and walk, after a full circle jog to F
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="ScrollSI650" destination="E4A-bO-R5z" id="ErK-45-iZO"/>
+                        <outlet property="ScrollSI4900" destination="E4A-bO-R5z" id="nRO-Xs-HNP"/>
                         <outlet property="htmlLabel" destination="KRO-r6-Sy2" id="I5G-XU-1rj"/>
                     </connections>
                 </viewController>
@@ -12518,6 +12533,6 @@ Start at S and walk, after a full circle jog to F
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="GYC-ul-NoK"/>
+        <segue reference="lm9-hW-ejp"/>
     </inferredMetricsTieBreakers>
 </document>
