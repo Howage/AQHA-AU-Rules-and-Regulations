@@ -103,7 +103,6 @@
 		5AFF0231168D17F000838F2B /* Markings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF0230168D17F000838F2B /* Markings.png */; };
 		D58DEA561B36959800B9725B /* OHParagraphStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D58DEA551B36959800B9725B /* OHParagraphStyle.m */; };
 		D58DEA581B3696A700B9725B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D58DEA571B3696A700B9725B /* Default-568h@2x.png */; };
-		D59C13FF1B4906FB00105D1A /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = D59C13FE1B4906FB00105D1A /* Title.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,11 +182,6 @@
 		5AB6F4FA163E8E1A00F6284F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		5AB6F4FC163E93F500F6284F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		5AB6F4FE163E942B00F6284F /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon1.png; path = ../icon1.png; sourceTree = "<group>"; };
-		5AB7034116EB13F100EF5FB7 /* Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Main.png; path = "../../../../AQHA Files/Main.png"; sourceTree = "<group>"; };
-		5AB7034716EB3E4800EF5FB7 /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "53-house.png"; path = "../../../../Downloads/glyphish-icons/PNG icons/53-house.png"; sourceTree = "<group>"; };
-		5AB7034916EB3E6600EF5FB7 /* 74-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "74-location.png"; path = "../../../../Downloads/glyphish-icons/PNG icons/74-location.png"; sourceTree = "<group>"; };
-		5AB7034B16EB3E7A00EF5FB7 /* 85-trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "85-trophy.png"; path = "../../../../Downloads/glyphish-icons/PNG icons/85-trophy.png"; sourceTree = "<group>"; };
-		5AB7034D16F1D49B00EF5FB7 /* Title1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Title1.png; path = "../../../../AQHA Files/Title1.png"; sourceTree = "<group>"; };
 		5AB7034F16F1E6DA00EF5FB7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		5AB88F5815F7514400184D7F /* AQHAAURules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQHAAURules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB88F5C15F7514400184D7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -238,7 +232,6 @@
 		D58DEA531B36954E00B9725B /* OHAttributedLabel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OHAttributedLabel; sourceTree = "<group>"; };
 		D58DEA551B36959800B9725B /* OHParagraphStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OHParagraphStyle.m; path = OHAttributedLabel/Source/OHParagraphStyle.m; sourceTree = "<group>"; };
 		D58DEA571B3696A700B9725B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D59C13FE1B4906FB00105D1A /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Title.png; path = "../../../../../../Volumes/STOOF/AQHA stuff/Title.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,7 +371,6 @@
 				5A4E420C168D225500A02359 /* penalty3.png */,
 				5A4E420D168D225500A02359 /* Penalty4.png */,
 				5A4E420E168D225500A02359 /* Reining Pattern 1.png */,
-				5AB7034D16F1D49B00EF5FB7 /* Title1.png */,
 				5A4E420F168D225500A02359 /* reining pattern 2.png */,
 				5A4E4210168D225500A02359 /* reining pattern 3.png */,
 				5A4E4211168D225500A02359 /* reining pattern 4.png */,
@@ -415,18 +407,13 @@
 				5A4D16C416CF36EE00A80289 /* Home20.png */,
 				5A4D16C516CF36EE00A80289 /* Home40.png */,
 				5AFDB99616BFC016009686C6 /* home2.png */,
-				D59C13FE1B4906FB00105D1A /* Title.png */,
 				5A208046164696C2006CEA70 /* Bridge.png */,
 				5AFDB99416BFBFB4009686C6 /* home2.png */,
-				5AB7034116EB13F100EF5FB7 /* Main.png */,
 				5AFDB99016BFBD9B009686C6 /* Home.png */,
 				5A20804416469594006CEA70 /* Gate.png */,
 				5A20803816451B98006CEA70 /* hih.png */,
-				5AB7034716EB3E4800EF5FB7 /* 53-house.png */,
-				5AB7034916EB3E6600EF5FB7 /* 74-location.png */,
 				5A20803E16468D17006CEA70 /* rd3.png */,
 				5A20804016468F20006CEA70 /* rd4.png */,
-				5AB7034B16EB3E7A00EF5FB7 /* 85-trophy.png */,
 				5A4E4206168D213700A02359 /* Eventing Points Table.png */,
 				5A2080481646974F006CEA70 /* L Shape.png */,
 				5A20803C16468C39006CEA70 /* rd2.png */,
@@ -586,7 +573,6 @@
 				5A4E421C168D225500A02359 /* Penalty4.png in Resources */,
 				5A4E421D168D225500A02359 /* Reining Pattern 1.png in Resources */,
 				5A4E421E168D225500A02359 /* reining pattern 2.png in Resources */,
-				D59C13FF1B4906FB00105D1A /* Title.png in Resources */,
 				5A4E421F168D225500A02359 /* reining pattern 3.png in Resources */,
 				5A4E4220168D225500A02359 /* reining pattern 4.png in Resources */,
 				5A4E4221168D225500A02359 /* reining pattern 5.png in Resources */,
