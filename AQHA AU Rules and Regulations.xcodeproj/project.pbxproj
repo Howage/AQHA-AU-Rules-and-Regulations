@@ -101,8 +101,14 @@
 		5AFF022D168D176900838F2B /* Limbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF022C168D176900838F2B /* Limbs.png */; };
 		5AFF022F168D17C500838F2B /* Neck and Head.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF022E168D17C500838F2B /* Neck and Head.png */; };
 		5AFF0231168D17F000838F2B /* Markings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF0230168D17F000838F2B /* Markings.png */; };
+		D579105D1B63521E00D0CCFA /* Western Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = D579105C1B63521E00D0CCFA /* Western Diagram.png */; };
+		D57910601B636EDA00D0CCFA /* REINING PEANLTIES 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D579105F1B636EDA00D0CCFA /* REINING PEANLTIES 2.png */; };
+		D57910621B636F2100D0CCFA /* REINING PEANLTIES 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D57910611B636F2100D0CCFA /* REINING PEANLTIES 2.png */; };
+		D57910641B636FE200D0CCFA /* reining penalties.png in Resources */ = {isa = PBXBuildFile; fileRef = D57910631B636FE200D0CCFA /* reining penalties.png */; };
 		D58DEA561B36959800B9725B /* OHParagraphStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D58DEA551B36959800B9725B /* OHParagraphStyle.m */; };
 		D58DEA581B3696A700B9725B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D58DEA571B3696A700B9725B /* Default-568h@2x.png */; };
+		D5CD32EF1B6321FF000FA6EC /* 3 day event points table.png in Resources */ = {isa = PBXBuildFile; fileRef = D5CD32EE1B6321FF000FA6EC /* 3 day event points table.png */; };
+		D5CD32F11B63483D000FA6EC /* spur measurement.png in Resources */ = {isa = PBXBuildFile; fileRef = D5CD32F01B63483D000FA6EC /* spur measurement.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -227,11 +233,17 @@
 		5AFF022C168D176900838F2B /* Limbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Limbs.png; sourceTree = "<group>"; };
 		5AFF022E168D17C500838F2B /* Neck and Head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Neck and Head.png"; sourceTree = "<group>"; };
 		5AFF0230168D17F000838F2B /* Markings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Markings.png; sourceTree = "<group>"; };
+		D579105C1B63521E00D0CCFA /* Western Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Western Diagram.png"; sourceTree = SOURCE_ROOT; };
+		D579105F1B636EDA00D0CCFA /* REINING PEANLTIES 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "REINING PEANLTIES 2.png"; sourceTree = SOURCE_ROOT; };
+		D57910611B636F2100D0CCFA /* REINING PEANLTIES 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "REINING PEANLTIES 2.png"; sourceTree = SOURCE_ROOT; };
+		D57910631B636FE200D0CCFA /* reining penalties.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reining penalties.png"; sourceTree = SOURCE_ROOT; };
 		D58DEA4A1B36948200B9725B /* OHAttributedLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OHAttributedLabel.m; path = OHAttributedLabel/Source/OHAttributedLabel.m; sourceTree = "<group>"; };
 		D58DEA4C1B3694BC00B9725B /* OHAttributedLabel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OHAttributedLabel.xcodeproj; path = OHAttributedLabel/OHAttributedLabel.xcodeproj; sourceTree = "<group>"; };
 		D58DEA531B36954E00B9725B /* OHAttributedLabel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OHAttributedLabel; sourceTree = "<group>"; };
 		D58DEA551B36959800B9725B /* OHParagraphStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OHParagraphStyle.m; path = OHAttributedLabel/Source/OHParagraphStyle.m; sourceTree = "<group>"; };
 		D58DEA571B3696A700B9725B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D5CD32EE1B6321FF000FA6EC /* 3 day event points table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3 day event points table.png"; sourceTree = "<group>"; };
+		D5CD32F01B63483D000FA6EC /* spur measurement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spur measurement.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,13 +352,16 @@
 		5AE375E8162AB21A000887EE /* Pics */ = {
 			isa = PBXGroup;
 			children = (
+				D5CD32EE1B6321FF000FA6EC /* 3 day event points table.png */,
 				5AB6F4FA163E8E1A00F6284F /* Default.png */,
 				5AB6F4FC163E93F500F6284F /* icon.png */,
 				5A4D16C816CF3D9600A80289 /* icon57.png */,
 				5A4D16CA16CF3DAC00A80289 /* icon114.png */,
 				5AE1E8A11695764F0023BD7D /* iconsmall.png */,
 				5AB6F4FE163E942B00F6284F /* icon1.png */,
+				D579105F1B636EDA00D0CCFA /* REINING PEANLTIES 2.png */,
 				5A4D16CC16CF3DD700A80289 /* Default@2x.png */,
+				D579105C1B63521E00D0CCFA /* Western Diagram.png */,
 				5AFF0227168D162200838F2B /* Standard Of Excellence.png */,
 				5AE1984716413381002C7DF4 /* low port with roller.png */,
 				5AFF022A168D171A00838F2B /* Body.png */,
@@ -359,6 +374,7 @@
 				5AE1988916429C31002C7DF4 /* Pole Bending.png */,
 				5AE1984F164136B3002C7DF4 /* double chain curb chain 2.png */,
 				5AE1985516413AFD002C7DF4 /* fm snaffle.png */,
+				D5CD32F01B63483D000FA6EC /* spur measurement.png */,
 				5A4E420A168D225500A02359 /* penalty.png */,
 				5A4E4228168D258D00A02359 /* WCH PATTERN 1.png */,
 				5A4E4229168D258D00A02359 /* WCH PATTERN 2.png */,
@@ -390,8 +406,10 @@
 				5A20804E16469923006CEA70 /* V Shape.png */,
 				5AFF022C168D176900838F2B /* Limbs.png */,
 				5A20803A16468A7A006CEA70 /* RD1.png */,
+				D57910631B636FE200D0CCFA /* reining penalties.png */,
 				5A4E4236168D320500A02359 /* parts of the horse.png */,
 				5A20804C1646985C006CEA70 /* U Shape.png */,
+				D57910611B636F2100D0CCFA /* REINING PEANLTIES 2.png */,
 				5A208050164699CA006CEA70 /* Drums.png */,
 				5A20805A16469D1F006CEA70 /* Drums 3.png */,
 				5A208042164692CF006CEA70 /* Yealing Lunge.png */,
@@ -479,6 +497,11 @@
 				LastTestingUpgradeCheck = 0630;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Australian Quarter Horse Association";
+				TargetAttributes = {
+					5AB88F5715F7514400184D7F = {
+						DevelopmentTeam = GHJRSRLLZ6;
+					};
+				};
 			};
 			buildConfigurationList = 5AB88F5215F7514400184D7F /* Build configuration list for PBXProject "AQHA AU Rules and Regulations" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -526,6 +549,7 @@
 				5AB6F4FD163E93F500F6284F /* icon.png in Resources */,
 				5AB6F4FF163E942B00F6284F /* icon1.png in Resources */,
 				5AE198451641305B002C7DF4 /* d ring snaffle.png in Resources */,
+				D57910601B636EDA00D0CCFA /* REINING PEANLTIES 2.png in Resources */,
 				5AE1984816413381002C7DF4 /* low port with roller.png in Resources */,
 				5AE1984A16413450002C7DF4 /* medium port.png in Resources */,
 				5AE1984C1641354E002C7DF4 /* hackamore.png in Resources */,
@@ -553,6 +577,7 @@
 				5A20804F16469923006CEA70 /* V Shape.png in Resources */,
 				5A208051164699CA006CEA70 /* Drums.png in Resources */,
 				5A20805316469AAD006CEA70 /* Square Box.png in Resources */,
+				D57910641B636FE200D0CCFA /* reining penalties.png in Resources */,
 				5A20805516469B64006CEA70 /* Poles.png in Resources */,
 				5A20805716469BBA006CEA70 /* Wtiches hats.png in Resources */,
 				5A20805916469C84006CEA70 /* Drums2.png in Resources */,
@@ -563,6 +588,7 @@
 				5AFF022B168D171A00838F2B /* Body.png in Resources */,
 				5AFF022D168D176900838F2B /* Limbs.png in Resources */,
 				5AFF022F168D17C500838F2B /* Neck and Head.png in Resources */,
+				D57910621B636F2100D0CCFA /* REINING PEANLTIES 2.png in Resources */,
 				5AFF0231168D17F000838F2B /* Markings.png in Resources */,
 				5A4E4207168D213700A02359 /* Eventing Points Table.png in Resources */,
 				5A4E4209168D21E100A02359 /* Points Calculations.png in Resources */,
@@ -570,6 +596,7 @@
 				5A4E421A168D225500A02359 /* penalty2.png in Resources */,
 				D58DEA581B3696A700B9725B /* Default-568h@2x.png in Resources */,
 				5A4E421B168D225500A02359 /* penalty3.png in Resources */,
+				D5CD32EF1B6321FF000FA6EC /* 3 day event points table.png in Resources */,
 				5A4E421C168D225500A02359 /* Penalty4.png in Resources */,
 				5A4E421D168D225500A02359 /* Reining Pattern 1.png in Resources */,
 				5A4E421E168D225500A02359 /* reining pattern 2.png in Resources */,
@@ -582,6 +609,7 @@
 				5A4E4225168D225500A02359 /* reining pattern 9.png in Resources */,
 				5A4E4226168D225500A02359 /* reining pattern 10.png in Resources */,
 				5A4E4227168D225500A02359 /* reining pattern 11.png in Resources */,
+				D5CD32F11B63483D000FA6EC /* spur measurement.png in Resources */,
 				5A4E422B168D258D00A02359 /* WCH PATTERN 1.png in Resources */,
 				5A4E422C168D258D00A02359 /* WCH PATTERN 2.png in Resources */,
 				5A4E422D168D258D00A02359 /* WCH PATTERN 3.png in Resources */,
@@ -596,6 +624,7 @@
 				5AFDB99516BFBFB4009686C6 /* home2.png in Resources */,
 				5AFDB99B16BFC238009686C6 /* Home 2.png in Resources */,
 				5A4D16C616CF36EE00A80289 /* Home20.png in Resources */,
+				D579105D1B63521E00D0CCFA /* Western Diagram.png in Resources */,
 				5A4D16C716CF36EE00A80289 /* Home40.png in Resources */,
 				5A4D16C916CF3D9600A80289 /* icon57.png in Resources */,
 				5A4D16CB16CF3DAC00A80289 /* icon114.png in Resources */,
@@ -724,8 +753,8 @@
 		5A160FEC16D09B06001BC557 /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: The Australian Quarter Horse Association";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Australian Quarter Horse Association";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AQHA AU Rules and Regulations/AQHA AU Rules and Regulations-Prefix.pch";
 				"HEADER_SEARCH_PATHS[arch=*]" = "../OHAttributedLabel/**";
@@ -733,6 +762,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = AQHAAURules;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "../OHAttributedLabel/**";
@@ -832,8 +862,8 @@
 		5AB88F8F15F7514400184D7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Mark Howard (8P7F827UDM)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mark Howard (8P7F827UDM)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AQHA AU Rules and Regulations/AQHA AU Rules and Regulations-Prefix.pch";
 				"HEADER_SEARCH_PATHS[arch=*]" = "../OHAttributedLabel/**";
@@ -841,6 +871,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = AQHAAURules;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "../OHAttributedLabel/**";
@@ -851,8 +882,8 @@
 		5AB88F9015F7514400184D7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: The Australian Quarter Horse Association";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Australian Quarter Horse Association";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AQHA AU Rules and Regulations/AQHA AU Rules and Regulations-Prefix.pch";
 				"HEADER_SEARCH_PATHS[arch=*]" = "../OHAttributedLabel/**";
@@ -860,6 +891,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = AQHAAURules;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "../OHAttributedLabel/**";
