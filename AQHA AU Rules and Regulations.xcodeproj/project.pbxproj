@@ -112,7 +112,6 @@
 		D57D093A1B63E49B00FBCDD5 /* Barrell.png in Resources */ = {isa = PBXBuildFile; fileRef = D57D09391B63E49B00FBCDD5 /* Barrell.png */; };
 		D57D093C1B63E5EB00FBCDD5 /* Figure of 8.png in Resources */ = {isa = PBXBuildFile; fileRef = D57D093B1B63E5EB00FBCDD5 /* Figure of 8.png */; };
 		D57D093E1B63E7B900FBCDD5 /* Pole bending.png in Resources */ = {isa = PBXBuildFile; fileRef = D57D093D1B63E7B900FBCDD5 /* Pole bending.png */; };
-		D57D09401B63E8C800FBCDD5 /* Keyhole.png in Resources */ = {isa = PBXBuildFile; fileRef = D57D093F1B63E8C800FBCDD5 /* Keyhole.png */; };
 		D57D09421B63E91C00FBCDD5 /* Keyhole.png in Resources */ = {isa = PBXBuildFile; fileRef = D57D09411B63E91C00FBCDD5 /* Keyhole.png */; };
 		D57D09441B63E9ED00FBCDD5 /* Team Penning.png in Resources */ = {isa = PBXBuildFile; fileRef = D57D09431B63E9ED00FBCDD5 /* Team Penning.png */; };
 		D57D09461B63EB1C00FBCDD5 /* WR PATTERN 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D57D09451B63EB1B00FBCDD5 /* WR PATTERN 1.png */; };
@@ -144,6 +143,13 @@
 		D58211591B63DC5600077E27 /* RWD Rule 97 Walk, Trot:Jog, Lope:Canter Trail.png in Resources */ = {isa = PBXBuildFile; fileRef = D58211581B63DC5600077E27 /* RWD Rule 97 Walk, Trot:Jog, Lope:Canter Trail.png */; };
 		D58DEA561B36959800B9725B /* OHParagraphStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D58DEA551B36959800B9725B /* OHParagraphStyle.m */; };
 		D58DEA581B3696A700B9725B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D58DEA571B3696A700B9725B /* Default-568h@2x.png */; };
+		D5BF8A1A1B648DA1007D434D /* Western Riding Image.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BF8A191B648DA1007D434D /* Western Riding Image.png */; };
+		D5BF8A1D1B64A55F007D434D /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BF8A1C1B64A55F007D434D /* Title.png */; };
+		D5BF8A1F1B64A6D5007D434D /* picture-home-symbol-free-icons-vector-download.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5BF8A1E1B64A6D5007D434D /* picture-home-symbol-free-icons-vector-download.jpg */; };
+		D5BF8A211B64A9A4007D434D /* HomeResized.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BF8A201B64A9A4007D434D /* HomeResized.png */; };
+		D5BF8A231B64AC88007D434D /* nav_resized.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BF8A221B64AC88007D434D /* nav_resized.png */; };
+		D5BF8A251B64ADD5007D434D /* House-128.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BF8A241B64ADD5007D434D /* House-128.png */; };
+		D5BF8A281B64AEA3007D434D /* home_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BF8A271B64AEA3007D434D /* home_1.png */; };
 		D5CD32EF1B6321FF000FA6EC /* 3 day event points table.png in Resources */ = {isa = PBXBuildFile; fileRef = D5CD32EE1B6321FF000FA6EC /* 3 day event points table.png */; };
 		D5CD32F11B63483D000FA6EC /* spur measurement.png in Resources */ = {isa = PBXBuildFile; fileRef = D5CD32F01B63483D000FA6EC /* spur measurement.png */; };
 /* End PBXBuildFile section */
@@ -280,7 +286,6 @@
 		D57D09391B63E49B00FBCDD5 /* Barrell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barrell.png; sourceTree = SOURCE_ROOT; };
 		D57D093B1B63E5EB00FBCDD5 /* Figure of 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Figure of 8.png"; sourceTree = SOURCE_ROOT; };
 		D57D093D1B63E7B900FBCDD5 /* Pole bending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pole bending.png"; sourceTree = SOURCE_ROOT; };
-		D57D093F1B63E8C800FBCDD5 /* Keyhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Keyhole.png; sourceTree = SOURCE_ROOT; };
 		D57D09411B63E91C00FBCDD5 /* Keyhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Keyhole.png; sourceTree = SOURCE_ROOT; };
 		D57D09431B63E9ED00FBCDD5 /* Team Penning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Team Penning.png"; sourceTree = SOURCE_ROOT; };
 		D57D09451B63EB1B00FBCDD5 /* WR PATTERN 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WR PATTERN 1.png"; sourceTree = SOURCE_ROOT; };
@@ -315,6 +320,13 @@
 		D58DEA531B36954E00B9725B /* OHAttributedLabel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OHAttributedLabel; sourceTree = "<group>"; };
 		D58DEA551B36959800B9725B /* OHParagraphStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OHParagraphStyle.m; path = OHAttributedLabel/Source/OHParagraphStyle.m; sourceTree = "<group>"; };
 		D58DEA571B3696A700B9725B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D5BF8A191B648DA1007D434D /* Western Riding Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Western Riding Image.png"; sourceTree = SOURCE_ROOT; };
+		D5BF8A1C1B64A55F007D434D /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = SOURCE_ROOT; };
+		D5BF8A1E1B64A6D5007D434D /* picture-home-symbol-free-icons-vector-download.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "picture-home-symbol-free-icons-vector-download.jpg"; sourceTree = SOURCE_ROOT; };
+		D5BF8A201B64A9A4007D434D /* HomeResized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeResized.png; sourceTree = SOURCE_ROOT; };
+		D5BF8A221B64AC88007D434D /* nav_resized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_resized.png; sourceTree = SOURCE_ROOT; };
+		D5BF8A241B64ADD5007D434D /* House-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-128.png"; sourceTree = SOURCE_ROOT; };
+		D5BF8A271B64AEA3007D434D /* home_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_1.png; sourceTree = SOURCE_ROOT; };
 		D5CD32EE1B6321FF000FA6EC /* 3 day event points table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3 day event points table.png"; sourceTree = "<group>"; };
 		D5CD32F01B63483D000FA6EC /* spur measurement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spur measurement.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -438,6 +450,7 @@
 				5A208050164699CA006CEA70 /* Drums.png */,
 				5A20805816469C84006CEA70 /* Drums2.png */,
 				5AE1985116413872002C7DF4 /* eggbutt snaffle.png */,
+				D5BF8A201B64A9A4007D434D /* HomeResized.png */,
 				5AE19853164139FA002C7DF4 /* English D Snaffle.png */,
 				5A4E4206168D213700A02359 /* Eventing Points Table.png */,
 				5A20805C16469DF0006CEA70 /* Fan.png */,
@@ -451,7 +464,7 @@
 				5AFDB99A16BFC238009686C6 /* Home 2.png */,
 				5AFDB99016BFBD9B009686C6 /* Home.png */,
 				5AFDB99216BFBE99009686C6 /* home1.png */,
-				5AFDB99416BFBFB4009686C6 /* home2.png */,
+				5AFDB99616BFC016009686C6 /* home2.png */,
 				5A4D16C416CF36EE00A80289 /* Home20.png */,
 				5A4D16C516CF36EE00A80289 /* Home40.png */,
 				5AB6F4FC163E93F500F6284F /* icon.png */,
@@ -459,7 +472,7 @@
 				5A4D16C816CF3D9600A80289 /* icon57.png */,
 				5A4D16CA16CF3DAC00A80289 /* icon114.png */,
 				5AE1E8A11695764F0023BD7D /* iconsmall.png */,
-				D57D093F1B63E8C800FBCDD5 /* Keyhole.png */,
+				D57D09411B63E91C00FBCDD5 /* Keyhole.png */,
 				5AE1985716413D5C002C7DF4 /* kimberwick low port .png */,
 				5A2080481646974F006CEA70 /* L Shape.png */,
 				5AFF022C168D176900838F2B /* Limbs.png */,
@@ -475,6 +488,7 @@
 				5A4E420C168D225500A02359 /* penalty3.png */,
 				5A4E420D168D225500A02359 /* Penalty4.png */,
 				5AE198871642993C002C7DF4 /* Penning.png */,
+				D5BF8A1E1B64A6D5007D434D /* picture-home-symbol-free-icons-vector-download.jpg */,
 				5A4E4208168D21E100A02359 /* Points Calculations.png */,
 				D57D093D1B63E7B900FBCDD5 /* Pole bending.png */,
 				5AE1988916429C31002C7DF4 /* Pole Bending.png */,
@@ -509,18 +523,28 @@
 				D58211561B63DA0600077E27 /* RWD Rule 97 Trail Pattern 2.png */,
 				D58211521B63D57A00077E27 /* RWD Rule 97 Walk job western horsemanship.png */,
 				D58211581B63DC5600077E27 /* RWD Rule 97 Walk, Trot:Jog, Lope:Canter Trail.png */,
+				D5BF8A271B64AEA3007D434D /* home_1.png */,
 				D582114E1B63D09500077E27 /* RWD97Pattern1.png */,
 				D57910691B63B0C700D0CCFA /* shw416_ranchpleasure_pattern1.png */,
 				D579106B1B63B2D600D0CCFA /* shw416_ranchpleasure_pattern2.png */,
 				D579106D1B63B51600D0CCFA /* shw416_ranchpleasure_pattern3.png */,
 				D579106F1B63B52000D0CCFA /* shw416_ranchpleasure_pattern4.png */,
 				D5CD32F01B63483D000FA6EC /* spur measurement.png */,
-				D57D09511B63F64F00FBCDD5 /* WCH PATTERN 2.png */,
 				5A20805216469AAD006CEA70 /* Square Box.png */,
-				D57D09531B63F6EA00FBCDD5 /* WCH PATTERN 3.png */,
 				5A208035164519B0006CEA70 /* Stake Race.png */,
+				5AFF0227168D162200838F2B /* Standard Of Excellence.png */,
+				5A20804A164697CE006CEA70 /* Straight Back.png */,
+				D57D09431B63E9ED00FBCDD5 /* Team Penning.png */,
+				D5BF8A1C1B64A55F007D434D /* Title.png */,
+				5A20804C1646985C006CEA70 /* U Shape.png */,
+				5A20804E16469923006CEA70 /* V Shape.png */,
+				D57D094F1B63F5DC00FBCDD5 /* WCH PATTERN 1.png */,
+				D5BF8A221B64AC88007D434D /* nav_resized.png */,
+				D57D09511B63F64F00FBCDD5 /* WCH PATTERN 2.png */,
+				D57D09531B63F6EA00FBCDD5 /* WCH PATTERN 3.png */,
 				D57D09551B63F82A00FBCDD5 /* WCH PATTERN 4.png */,
 				D57D09571B63F88400FBCDD5 /* WCH PATTERN 5.png */,
+				D5BF8A241B64ADD5007D434D /* House-128.png */,
 				D57D09581B63F88400FBCDD5 /* WCH PATTERN 6.png */,
 				D57D09591B63F88400FBCDD5 /* WCH PATTERN 8.png */,
 				D57D095A1B63F88400FBCDD5 /* WCH PATTERN 9.png */,
@@ -528,24 +552,18 @@
 				D57D095C1B63F88400FBCDD5 /* WCH PATTERN 11.png */,
 				D57D095D1B63F88400FBCDD5 /* WCH PATTERN 12.png */,
 				D57D095E1B63F88400FBCDD5 /* WCHPATTERN 7.png */,
-				D57D094F1B63F5DC00FBCDD5 /* WCH PATTERN 1.png */,
-				5AFF0227168D162200838F2B /* Standard Of Excellence.png */,
-				5A20804A164697CE006CEA70 /* Straight Back.png */,
-				D57D094D1B63F4AE00FBCDD5 /* WR PATTERN 5.png */,
-				D57D09431B63E9ED00FBCDD5 /* Team Penning.png */,
-				D57D094B1B63F43100FBCDD5 /* WR PATTERN 4.png */,
-				5A20804C1646985C006CEA70 /* U Shape.png */,
-				5A20804E16469923006CEA70 /* V Shape.png */,
-				D57D09491B63F37900FBCDD5 /* WR PATTERN 3.png */,
 				D579105C1B63521E00D0CCFA /* Western Diagram.png */,
+				D5BF8A191B648DA1007D434D /* Western Riding Image.png */,
 				5A4E422E168D260E00A02359 /* WESTERN RIDING PATTERN 4.png */,
 				D57D09451B63EB1B00FBCDD5 /* WR PATTERN 1.png */,
+				D57D09471B63EC1A00FBCDD5 /* WR PATTERN 2.png */,
+				D57D09491B63F37900FBCDD5 /* WR PATTERN 3.png */,
+				D57D094B1B63F43100FBCDD5 /* WR PATTERN 4.png */,
+				D57D094D1B63F4AE00FBCDD5 /* WR PATTERN 5.png */,
 				5A20805616469BBA006CEA70 /* Wtiches hats.png */,
 				5A208042164692CF006CEA70 /* Yealing Lunge.png */,
 				D57910611B636F2100D0CCFA /* REINING PEANLTIES 2.png */,
-				D57D09471B63EC1A00FBCDD5 /* WR PATTERN 2.png */,
 				D57D09411B63E91C00FBCDD5 /* Keyhole.png */,
-				5AFDB99616BFC016009686C6 /* home2.png */,
 				5AFDB99416BFBFB4009686C6 /* home2.png */,
 			);
 			name = Pics;
@@ -665,6 +683,7 @@
 				5AB6F4FF163E942B00F6284F /* icon1.png in Resources */,
 				5AE198451641305B002C7DF4 /* d ring snaffle.png in Resources */,
 				D57D09641B63F88400FBCDD5 /* WCH PATTERN 11.png in Resources */,
+				D5BF8A1F1B64A6D5007D434D /* picture-home-symbol-free-icons-vector-download.jpg in Resources */,
 				D57D09481B63EC1A00FBCDD5 /* WR PATTERN 2.png in Resources */,
 				D57910601B636EDA00D0CCFA /* REINING PEANLTIES 2.png in Resources */,
 				D57D094E1B63F4AE00FBCDD5 /* WR PATTERN 5.png in Resources */,
@@ -679,6 +698,7 @@
 				5AE1985816413D5C002C7DF4 /* kimberwick low port .png in Resources */,
 				D58211551B63D8CA00077E27 /* RWD Rule 97 Trail pattern 1.png in Resources */,
 				5AE1985A16413E92002C7DF4 /* Myler D ring (3).png in Resources */,
+				D5BF8A231B64AC88007D434D /* nav_resized.png in Resources */,
 				D57D09561B63F82A00FBCDD5 /* WCH PATTERN 4.png in Resources */,
 				D58211531B63D57A00077E27 /* RWD Rule 97 Walk job western horsemanship.png in Resources */,
 				5AE198881642993C002C7DF4 /* Penning.png in Resources */,
@@ -721,6 +741,7 @@
 				D579106A1B63B0C700D0CCFA /* shw416_ranchpleasure_pattern1.png in Resources */,
 				5A20805F16469E1D006CEA70 /* Fan2.png in Resources */,
 				5AFF0228168D162200838F2B /* Standard Of Excellence.png in Resources */,
+				D5BF8A251B64ADD5007D434D /* House-128.png in Resources */,
 				5AFF022B168D171A00838F2B /* Body.png in Resources */,
 				5AFF022D168D176900838F2B /* Limbs.png in Resources */,
 				D57D09631B63F88400FBCDD5 /* WCH PATTERN 10.png in Resources */,
@@ -748,14 +769,16 @@
 				5A4E4220168D225500A02359 /* reining pattern 4.png in Resources */,
 				5A4E4221168D225500A02359 /* reining pattern 5.png in Resources */,
 				5A4E4222168D225500A02359 /* reining pattern 6.png in Resources */,
+				D5BF8A211B64A9A4007D434D /* HomeResized.png in Resources */,
+				D5BF8A1D1B64A55F007D434D /* Title.png in Resources */,
 				5A4E4223168D225500A02359 /* reining pattern 7.png in Resources */,
 				D58211491B63BF7400077E27 /* Reining Pattern 3.png in Resources */,
-				D57D09401B63E8C800FBCDD5 /* Keyhole.png in Resources */,
 				5A4E4224168D225500A02359 /* reining pattern 8.png in Resources */,
 				D57910681B63AB4E00D0CCFA /* Lunge Line Rule 83.png in Resources */,
 				D57D093A1B63E49B00FBCDD5 /* Barrell.png in Resources */,
 				5A4E4225168D225500A02359 /* reining pattern 9.png in Resources */,
 				5A4E4226168D225500A02359 /* reining pattern 10.png in Resources */,
+				D5BF8A281B64AEA3007D434D /* home_1.png in Resources */,
 				D57D093C1B63E5EB00FBCDD5 /* Figure of 8.png in Resources */,
 				5A4E4227168D225500A02359 /* reining pattern 12.png in Resources */,
 				D57910661B63A8AA00D0CCFA /* HIH.png in Resources */,
@@ -776,6 +799,7 @@
 				5A4D16CB16CF3DAC00A80289 /* icon114.png in Resources */,
 				5A4D16CD16CF3DD700A80289 /* Default@2x.png in Resources */,
 				D582114D1B63CCED00077E27 /* reining pattern 11.png in Resources */,
+				D5BF8A1A1B648DA1007D434D /* Western Riding Image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

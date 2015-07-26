@@ -29,7 +29,8 @@ if (event.subtype == UIEventSubtypeMotionShake) {
     scroller.contentSize=CGSizeMake(320, 1000);
     secIMainScroll.contentSize=CGSizeMake(320, 1000);
     UINavigationBar *bar = [self.navigationController navigationBar]; 
-    [bar setTintColor:[UIColor whiteColor]]; 
+    [bar setTintColor:[UIColor whiteColor]];
+
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 
