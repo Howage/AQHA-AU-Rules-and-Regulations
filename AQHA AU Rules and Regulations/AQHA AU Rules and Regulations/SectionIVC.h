@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 #import "OHAttributedLabel.h"
 #import "NSAttributedString+Attributes.h"
 
@@ -15,35 +16,35 @@
     IBOutlet UIScrollView *ScollSI1;
     IBOutlet UIScrollView *ScrollSI2;
     IBOutlet UIScrollView *Scroll2500;
-    IBOutlet UIScrollView *Scroll2200;
     IBOutlet UIScrollView *ScrollSI5000;
     IBOutlet UIScrollView *ScrollSI5500;
     IBOutlet UIScrollView *ScrollSI1500;
     IBOutlet UIScrollView *ScrollSI6500;
     IBOutlet UIScrollView *ScrollSI7000;
-    IBOutlet UIScrollView *ScrollSI7500;
+        IBOutlet UIScrollView *ScrollSI7500;
     IBOutlet UIScrollView *ScrollSI8700;
-    IBOutlet UIScrollView *ScrollSI8600;
-    IBOutlet UIScrollView *ScrollSI8400;
     IBOutlet UIScrollView *ScrollSI13000;
     IBOutlet UIScrollView *ScrollSI800;
-    IBOutlet UIScrollView *ScrollSI650;
-    IBOutlet UIScrollView *ScrollSI900;
-    IBOutlet UIScrollView *ScrollSI1000;
-    IBOutlet UIScrollView *ScrollSI1100;
-    IBOutlet UIScrollView *ScrollSI1200;
     IBOutlet UIScrollView *ScrollSI11000;
-    IBOutlet UIScrollView *ScrollSI4500;
-    IBOutlet UIScrollView *ScrollSI4200;
-    IBOutlet UIScrollView *ScrollSI3200;
-    IBOutlet UIScrollView *ScrollSI4700;
-    IBOutlet UIScrollView *ScrollSI4900;
-    IBOutlet UIScrollView *ScrollSI1700;
-    IBOutlet UIScrollView *ScrollSI1300;
-    IBOutlet UIScrollView *ScrollSI1400;
-    IBOutlet UISegmentedControl *seg;
+        IBOutlet UISegmentedControl *seg;
     IBOutlet UISegmentedControl *seg1;    
+    MKMapView *mapView;
+    
+    
 }
+
+@property (nonatomic, retain) IBOutlet MKMapView *mapview;
+
+-(IBAction)setMap:(id)sender;
+-(IBAction)getlocation:(id)sender;
+
+
+
+
+- (IBAction)segment1CtrlChanged:(id)sender;
+- (IBAction)segmentCtrlChanged:(id)sender;
+
+
 @property(retain, nonatomic) IBOutlet OHAttributedLabel* htmlLabel;
 @property(retain, nonatomic) IBOutlet OHAttributedLabel* basicMarkupLabel;
 
