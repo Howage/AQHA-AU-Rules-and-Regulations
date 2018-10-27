@@ -25,8 +25,8 @@
     
     MKMapView *mapView;
    AddressAnnotation *addAnnotation;
-
-}
+    
+};
  - (IBAction)openMail:(id)sender;
 
 

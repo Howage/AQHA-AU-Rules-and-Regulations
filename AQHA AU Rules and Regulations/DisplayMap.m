@@ -40,7 +40,7 @@
         mapView.delegate = self;
         [mapView selectAnnotation:[mapView.annotations objectAtIndex:0] animated:TRUE]; 
     }
-- (IBAction) showAddress 
+- (IBAction) showAddress
 {
     
     
@@ -70,7 +70,7 @@
 
 }
 
-- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
+- (MKAnnotationView *)mapView:(MKMapView *)mapView1 viewForAnnotation:(id <MKAnnotation>)annotation
 {
     NSLog(@"viewForAnnotation");
     
@@ -79,12 +79,12 @@
     
     static NSString *annotationIdentifier = @"AnnotationIdentifier"; 
     
-    MKPinAnnotationView *pinView = (MKPinAnnotationView *) [mapView 
+    MKPinAnnotationView *pinView = (MKPinAnnotationView *) [mapView
                                                             dequeueReusableAnnotationViewWithIdentifier:annotationIdentifier];
     
     if (!pinView) 
     {
-        pinView = [[MKPinAnnotationView alloc] 
+        pinView = [[MKPinAnnotationView alloc]
                     initWithAnnotation:annotation 
                     reuseIdentifier:annotationIdentifier];
         
@@ -127,7 +127,7 @@
         [mailer setSubject:@"Query for AQHA"];
         NSArray *toRecipients = [NSArray arrayWithObjects:@"qhorse@aqha.com.au", nil];
         [mailer setToRecipients:toRecipients];
-        [self presentModalViewController:mailer animated:YES];
+     //   [self.window.rootViewController  presentViewController:mailer animated:YES];
 
     }
     else
@@ -164,7 +164,7 @@
             break;
     }
     // Remove the mail view
-    [self dismissModalViewControllerAnimated:YES];
+  //  [self dismissViewControllerAnimated:YES];
 }
 
 @end
