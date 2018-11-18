@@ -156,6 +156,7 @@
 		D5D5BB251B6C5F3800F992FB /* Question_Mark_Quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D5BB241B6C5F3800F992FB /* Question_Mark_Quiz.png */; };
 		D5D5BB271B6C643B00F992FB /* Horse_Image_quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D5BB261B6C643B00F992FB /* Horse_Image_quiz.png */; };
 		D5D5BB291B6C66A300F992FB /* Default-414w-736h@3x~iphone1.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D5BB281B6C66A300F992FB /* Default-414w-736h@3x~iphone1.png */; };
+		D5DF4C6621A1279400149006 /* side view-section2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5DF4C6521A1278C00149006 /* side view-section2.png */; };
 		D5EE0D401B6C98AE00DB318C /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = D5EE0D3F1B6C98AE00DB318C /* Icon-120.png */; };
 /* End PBXBuildFile section */
 
@@ -340,6 +341,7 @@
 		D5D5BB261B6C643B00F992FB /* Horse_Image_quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Horse_Image_quiz.png; sourceTree = SOURCE_ROOT; };
 		D5D5BB281B6C66A300F992FB /* Default-414w-736h@3x~iphone1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-414w-736h@3x~iphone1.png"; sourceTree = SOURCE_ROOT; };
 		D5D5BB2A1B6C7C1E00F992FB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		D5DF4C6521A1278C00149006 /* side view-section2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "side view-section2.png"; path = "../../../AQHA upd 2018/images/side view-section2.png"; sourceTree = "<group>"; };
 		D5EE0D3F1B6C98AE00DB318C /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -451,6 +453,7 @@
 				D5CD32EE1B6321FF000FA6EC /* 3 day event points table.png */,
 				D58485491D601D4800F1CB3B /* AQHAFines copy.png */,
 				D57D09391B63E49B00FBCDD5 /* Barrell.png */,
+				D5DF4C6521A1278C00149006 /* side view-section2.png */,
 				5AFF022A168D171A00838F2B /* Body.png */,
 				5A208046164696C2006CEA70 /* Bridge.png */,
 				5AE198441641305B002C7DF4 /* d ring snaffle.png */,
@@ -698,6 +701,7 @@
 				D58211461B63BDA800077E27 /* Reining Pattern 2.png in Resources */,
 				5AB6F4FD163E93F500F6284F /* icon.png in Resources */,
 				5AB6F4FF163E942B00F6284F /* icon1.png in Resources */,
+				D5DF4C6621A1279400149006 /* side view-section2.png in Resources */,
 				5AE198451641305B002C7DF4 /* d ring snaffle.png in Resources */,
 				D57D09641B63F88400FBCDD5 /* WCH PATTERN 11.png in Resources */,
 				D5BF8A1F1B64A6D5007D434D /* picture-home-symbol-free-icons-vector-download.jpg in Resources */,
@@ -946,7 +950,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -1041,7 +1045,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1083,7 +1087,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
